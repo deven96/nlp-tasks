@@ -125,7 +125,7 @@ class WideNNTrainer:
                     validation_split=0.2)
         self.model.save(model_hdf)
     
-    def predict(self, sentence_1, sentence_2, threshold=0.5):
+    def predict(self, sentence_1, sentence_2, threshold=0.15):
         """
         Predict using saved model
         """
